@@ -1,0 +1,33 @@
+.nomination-table {
+  padding: 3rem;
+  overflow: auto;
+}
+
+.nomination-genres {
+  padding: 3rem;
+}
+
+.nomination-button {
+  color: black;
+}
+
+.nomination-button:hover {
+  color: azure;
+}
+
+.nomination-img {
+  width: 3.5rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.nomination_genre1 {
+  background: #025464;
+  color: white;
+  font-weight: bold;
+}
+
+.nomination_genre2 {
+  background: white;
+  color: #025464;
+}

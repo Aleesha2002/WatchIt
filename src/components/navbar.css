@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  background: none;
+  position: sticky;
+  /* padding: 5px;
+  padding-left: 10px; */
+  /* padding-left: 10px; */
+}
+.navbar_h1 {
+  flex: 9;
+  padding: 5px;
+  padding-left: 30px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.navbar_right_side {
+  flex: 3;
+  /* flex-wrap: wrap; */
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Varela", sans-serif;
+}
+
+.navbar_h2 {
+  display: flex;
+  margin-right: 20px;
+}
+
+.last {
+  padding-right: 40px;
+}
+
+@media screen {
+  .navbar_h2 {
+    font-size: xx-small;
+
+    padding-right: 5px;
+    margin-right: 0px;
+    display: flex;
+  }
+}
